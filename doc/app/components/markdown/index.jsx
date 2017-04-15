@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './style';
 
 
@@ -14,7 +15,7 @@ const Markdown = (props) => {
 };
 
 Markdown.propTypes = {
-  html: React.PropTypes.string
+  html: PropTypes.string
 };
 
 export default Markdown;

@@ -1,6 +1,6 @@
 import expect from 'expect';
 import React from 'react';
-import TestUtils from 'react-addons-test-utils';
+import TestUtils from 'react-dom/test-utils';
 import Col, { getColumnProps } from '../../src/components/Col';
 import style from 'flexboxgrid';
 
